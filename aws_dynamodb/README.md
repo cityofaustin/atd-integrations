@@ -36,14 +36,14 @@ Sample Configuration:
 
 ```json
 {
-	"aws_dynamodb": {
+    "aws_dynamodb": {
         "name": "DynamoDB Configuration",
-		"table_name": "valid-table-name",
+        "table_name": "valid-table-name",
         "api_endpoint": "http://sample.dynamodb.com/endpoint",
         "aws_region_name": "region_name",
-		"aws_access_key_id": "xxxxxxxxxxxxxxxxxxxxxxx",
+        "aws_access_key_id": "xxxxxxxxxxxxxxxxxxxxxxx",
         "aws_secret_access_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-	}
+    }
 }
 ```
 

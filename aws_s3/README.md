@@ -16,14 +16,14 @@ Sample Configuration:
 
 ```json
 {
-	"aws_s3_bucket": {
+    "aws_s3_bucket": {
         "name": "Form Submissions Archive",
-		"bucket_name": "valid-bucket-name",
+        "bucket_name": "valid-bucket-name",
         "bucket_path": "valid/path/in/bucket",
         "aws_region_name": "region_name",
-		"aws_access_key_id": "xxxxxxxxxxxxxxxxxxxxxxx",
+        "aws_access_key_id": "xxxxxxxxxxxxxxxxxxxxxxx",
         "aws_secret_access_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-	}
+    }
 }
 ```
 
