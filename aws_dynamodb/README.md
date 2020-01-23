@@ -1,8 +1,12 @@
+# Security Note
+
+**IMPORTANT: Do not push code with passwords, access keys, api tokens or any other sensitive information.**
+
 # AWS DynamoDB Integration (Effort Level: Medium)
 
 ### Purpose
 
-We need an integration that can take a key-value json document and inserts the values into a DynamoDB database 
+We need an integration that can take a key-value json document and inserts the values into an AWS DynamoDB database.
 
 Example Article:
 https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Python.03.html
@@ -33,12 +37,14 @@ Sample Configuration:
 ```json
 {
 	"aws_dynamodb": {
-    "name": "Form Submissions Archive",
-		"bucket_name": "valid-bucket-name",
-    "bucket_path": "valid/path/in/bucket"
-    "aws_region_name": "region_name",
+        "name": "DynamoDB Configuration",
+		"table_name": "valid-table-name",
+        "api_endpoint": "http://sample.dynamodb.com/endpoint",
+        "aws_region_name": "region_name",
 		"aws_access_key_id": "xxxxxxxxxxxxxxxxxxxxxxx",
-    "aws_secret_access_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        "aws_secret_access_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 	}
 }
 ```
+
+You may use the json payload and the sample configuration any way you need to.
