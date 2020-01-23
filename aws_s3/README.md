@@ -17,7 +17,7 @@ Sample Configuration:
 ```json
 {
     "aws_s3_bucket": {
-        "name": "Form Submissions Archive",
+        "name": "S3 Bucket Configuration",
         "bucket_name": "valid-bucket-name",
         "bucket_path": "valid/path/in/bucket",
         "aws_region_name": "region_name",
